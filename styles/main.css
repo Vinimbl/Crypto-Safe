@@ -7,24 +7,21 @@
         font-weight: 700;        
     }
 
-.card__descrição h2 
+.Centropag h2 
     {
-        font-size: 1.3em;
-        margin: 15px 0px;
-        text-align: center;
-        font-weight: 700;
+        font-size: 60px;
     }
 
-.card__descrição 
+.Centropag 
     {        
-        background: var(--branco);
+        background: var(--azul-degrade);
         font-family: var(--fonte-principal);
         font-size: 0.8em;  
-        font-weight: 500; 
-        border-radius: 10px;
-        margin: 1.5em;
-        padding: 1em;
+        font-weight: 500;         
         text-decoration: none;
+        font-size: 1.3em;
+        text-align: center;
+        font-weight: 700;
     }
 
 .descrição__imagem
