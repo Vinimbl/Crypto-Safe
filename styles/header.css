@@ -3,8 +3,21 @@
         background-color: var(--azul);
         display: flex;
         justify-content: center;
-        align-items: center; 
+        align-items: center;
         position: relative;
+    }
+
+.container
+    {
+        background: var(--azul-degrade);
+        display: flex;
+        align-items: center;  
+                   
+    }
+
+.container p
+    {
+        display: none;
     }
 
 .enviar 
@@ -44,13 +57,7 @@
         position: center;
     }
 
-.container
-    {
-        background: var(--azul-degrade);
-        display: flex;
-        align-items: center;  
-                   
-    }
+
 
 
 
@@ -59,10 +66,7 @@
         display: none;
     }
 
-.container p
-    {
-        display: none;
-    }
+
 
 @media screen and (min-width: 1024px) 
     {
