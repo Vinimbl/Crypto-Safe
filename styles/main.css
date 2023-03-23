@@ -26,6 +26,7 @@
 
 .itens
     {
+        margin-top: 1em;
         font-style: bold;
         font-size: 2em;
         line-height: 1.5; /*altura da linha espaçamento de uma linha de texto para outra*/
@@ -33,8 +34,8 @@
 
 .conteudo-beneficios
     {
-        width: 600px;
-        margin: 0 auto;
+        width: 60%;
+        margin: 1em auto;
     }
 
 .lista-beneficios
