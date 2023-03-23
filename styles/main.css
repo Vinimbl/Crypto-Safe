@@ -1,107 +1,95 @@
-.mapa__conteudo h2
-    {
-        font-family: var(--fonte-secundaria);
-        font-size: 1em;
-        margin: 15px 0px;
-        text-align: center;  
-        font-weight: 700;        
-    }
+.mapa__conteudo h2 {
+  font-family: var(--fonte-secundaria);
+  font-size: 1em;
+  margin: 15px 0px;
+  text-align: center;
+  font-weight: 700;
+}
+.img-with-text {
+  text-align: justify;
+  width: [width of img];
+}
 
-.Centropag h2 
-    {
-        font-size: 60px;
-    }
+.img-with-text img {
+  display: block;
+  margin: 0 auto;
+}
 
-.Centropag 
-    {        
-        background: var(--azul-degrade);
-        font-family: var(--fonte-principal);
-        font-size: 0.8em;  
-        font-weight: 500;         
-        text-decoration: none;
-        font-size: 1.3em;
-        text-align: center;
-        font-weight: 700;
-    }
+.Centropag h2 {
+  font-size: 60px;
+}
 
-.itens
-    {
-        margin-top: 1em;
-        font-style: bold;
-        font-size: 2em;
-        line-height: 1.5; /*altura da linha espaçamento de uma linha de texto para outra*/
-    }
+.Centropag {
+  background: var(--azul-degrade);
+  font-family: var(--fonte-principal);
+  font-size: 0.8em;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: 700;
+}
 
-.conteudo-beneficios
-    {
-        width: 60%;
-        margin: 1em auto;
-    }
+.itens {
+  margin-top: 1em;
+  font-style: bold;
+  font-size: 2em;
+  line-height: 1.5; /*altura da linha espaçamento de uma linha de texto para outra*/
+}
 
-.lista-beneficios
-    {
-        width: 40%;
-        display: inline-block;
-        vertical-align: top; /*posição do alinhamento da lista neste cxaso lista ficara na parte de cima da imagem*/
-    }
+.conteudo-beneficios {
+  width: 60%;
+  margin: 1em auto;
+}
 
-.descrição__imagem
-    {
-        width: 50%;
-        border-radius: 10px;
+.lista-beneficios {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top; /*posição do alinhamento da lista neste cxaso lista ficara na parte de cima da imagem*/
+}
 
-    }
+.descrição__imagem {
+  width: 50%;
+  border-radius: 10px;
+}
 
+@media screen and (min-width: 1024px) {
+  .contato {
+    width: 50%;
+    height: 30%;
+    margin-left: 25.5%;
+  }
 
+  .contato h2 {
+    font-size: 2em;
+  }
 
-@media screen and (min-width: 1024px)
-    {
-        .contato
-            {
-                width: 50%;
-                height: 30%;
-                margin-left: 25.5%;
-            }
-        
-        .contato h2 
-            {
-                font-size: 2em;
-            }
-    
-        .card__descrição
-            {
-                width: 60%;
-                margin-left: 20%;
-            }
+  .card__descrição {
+    width: 60%;
+    margin-left: 20%;
+  }
 
-        .card__descrição h2 
-            {
-                font-size: 2em;
-                font-weight: 700;
-            }
+  .card__descrição h2 {
+    font-size: 2em;
+    font-weight: 700;
+  }
 
-        .card__descrição p 
-            {
-                font-size: 1.2em;
-                font-weight: 400;
-            }
+  .card__descrição p {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
 
-        .mapa__conteudo
-            {
-                margin: 0 auto; 
-            }
+  .mapa__conteudo {
+    margin: 0 auto;
+  }
 
-        .mapa__conteudo h2
-            {
-                font-size: 1.5em;
-            }
+  .mapa__conteudo h2 {
+    font-size: 1.5em;
+  }
 
-        .mapa__google
-            {
-                width: 80%;
-                margin-left: 10%; 
-                height: 20em;                               
-            }
-    }
-
- 
+  .mapa__google {
+    width: 80%;
+    margin-left: 10%;
+    height: 20em;
+  }
+}
