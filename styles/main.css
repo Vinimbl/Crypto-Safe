@@ -24,27 +24,34 @@
         font-weight: 700;
     }
 
+.itens
+    {
+        font-style: bold;
+        font-size: 2em;
+        line-height: 1.5; /*altura da linha espaçamento de uma linha de texto para outra*/
+    }
+
+.conteudo-beneficios
+    {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+.lista-beneficios
+    {
+        width: 40%;
+        display: inline-block;
+        vertical-align: top; /*posição do alinhamento da lista neste cxaso lista ficara na parte de cima da imagem*/
+    }
+
 .descrição__imagem
     {
-        width: 100%;
+        width: 50%;
         border-radius: 10px;
+
     }
 
-.mapa__conteudo 
-    {    
-        margin: 1em;
-        padding: 1em;
-    }
-.mapa__texto
-    {
-        font-family: var(--fonte-principal);
-        font-weight: 700;
-    }
 
-.mapa__google
-    {
-        border-radius: 20px;
-    }
 
 @media screen and (min-width: 1024px)
     {
