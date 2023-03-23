@@ -3,8 +3,16 @@
         background: var(--azul-degrade);
         color: var(--branco);
         text-align: center;
-        padding: 1.5em 2em;
+        padding: 1em;
     }
+
+.banner__descrição
+{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top; /*posição do alinhamento da lista neste cxaso lista ficara na parte de cima da imagem*/
+}
+    
 
 
     @media screen and (min-width: 1024px)
